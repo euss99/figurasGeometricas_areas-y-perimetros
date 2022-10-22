@@ -1,3 +1,5 @@
+/* Página principal */
+
 body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
@@ -68,11 +70,8 @@ nav p a:hover {
     justify-content: center;
     align-items: center;
 }
-.cart-container div img {
-    width: 100px;
-}
-.cart-container div img:nth-child(2) {
-    width: 90px;
+.cart-container div img:nth-child(1) {
+    margin-bottom: 20px;
 }
 .cart-container button {
     width: 100px;
