@@ -128,3 +128,21 @@ footer img {
     height: 50px;
     margin: 20px;
 }
+
+@media (max-width: 620px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    footer img {
+        margin: 10px;
+    }
+    .info-write {
+        margin: 10px;
+    }
+    
+    .contat-section {
+        flex-direction: column;
+    }
+}
