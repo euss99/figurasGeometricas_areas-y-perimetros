@@ -147,6 +147,13 @@ footer img {
 .container-info h3 {
     font-size: 24px;
 }
+.figure-img {
+    display: flex;
+    place-items: center;
+}
+.figure-img img:nth-child(1) {
+    margin-right: 15px;
+}
 .figure-var {
     text-align: center;
 }
@@ -168,6 +175,9 @@ footer img {
     background: #babaf1;
     border-radius: 5px;
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1); 
+}
+.input1 {
+    margin-bottom: 10px;
 }
 .container-calculate button {
     width: 90px;
