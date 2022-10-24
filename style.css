@@ -177,6 +177,7 @@ footer img {
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1); 
 }
 .input1 {
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 .container-calculate button {
