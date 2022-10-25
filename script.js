@@ -58,9 +58,9 @@ function calcularAreaPerimeterCirculo() {
 }
 
 function calcularAreaPerimetroTriangulo() {
-    const ladoA = parseInt(inputLadoTrianguloA.value);
-    const ladoB = parseInt(inputLadoTrianguloB.value);
-    const ladoC = parseInt(inputLadoTrianguloC.value);
+    const ladoA = parseFloat(inputLadoTrianguloA.value);
+    const ladoB = parseFloat(inputLadoTrianguloB.value);
+    const ladoC = parseFloat(inputLadoTrianguloC.value);
     
     if (!ladoA || !ladoB || !ladoC) {
         alert("Por favor, pon las dimensiones en centimetros.");
@@ -75,7 +75,7 @@ function calcularAreaPerimetroTriangulo() {
 }
 
 function calcularAreaPerimetroCuadrado() {
-    const ladoA = parseInt(inputLadoCuadradoA.value);
+    const ladoA = parseFloat(inputLadoCuadradoA.value);
 
     if (!ladoA) {
         alert("Por favor, pon las dimensiones en centimetros.");
@@ -90,8 +90,8 @@ function calcularAreaPerimetroCuadrado() {
 }
 
 function calcularAreaPerimetroRectangulo() {
-    const ladoA = parseInt(inputLadoRectanguloA.value);
-    const ladoB = parseInt(inputLadoRectanguloB.value);
+    const ladoA = parseFloat(inputLadoRectanguloA.value);
+    const ladoB = parseFloat(inputLadoRectanguloB.value);
 
     if (!ladoA || !ladoB) {
         alert("Por favor, pon las dimensiones en centimetros.");
@@ -106,8 +106,8 @@ function calcularAreaPerimetroRectangulo() {
 }
 
 function calcularAreaPerimetroRombo() {
-    const ladoA = parseInt(inputLadoRomboA.value);
-    const altura = parseInt(inputAlturaRombo.value);
+    const ladoA = parseFloat(inputLadoRomboA.value);
+    const altura = parseFloat(inputAlturaRombo.value);
 
     if (!ladoA || !altura) {
         alert("Por favor, pon las dimensiones en centimetros.");
@@ -122,11 +122,11 @@ function calcularAreaPerimetroRombo() {
 }
 
 function calcularAreaPerimetroTrapecio() {
-    const ladoA = parseInt(inputLadoTrapecioA.value);
-    const ladoB = parseInt(inputLadoTrapecioB.value);
-    const ladoC = parseInt(inputLadoTrapecioC.value);
-    const ladoD = parseInt(inputLadoTrapecioD.value);
-    const altura = parseInt(inputAlturaTrapecio.value);
+    const ladoA = parseFloat(inputLadoTrapecioA.value);
+    const ladoB = parseFloat(inputLadoTrapecioB.value);
+    const ladoC = parseFloat(inputLadoTrapecioC.value);
+    const ladoD = parseFloat(inputLadoTrapecioD.value);
+    const altura = parseFloat(inputAlturaTrapecio.value);
 
     if (!ladoA || !ladoB || !ladoC || !ladoD || !altura) {
         alert("Por favor, pon las dimensiones en centimetros.");
@@ -141,7 +141,7 @@ function calcularAreaPerimetroTrapecio() {
 }
 
 function calcularAreaPerimetroPentagono() {
-    const ladoA = parseInt(inputLadoPentagonoA.value);
+    const ladoA = parseFloat(inputLadoPentagonoA.value);
 
     if (!ladoA) {
         alert("Por favor, pon las dimensiones en centimetros.");
@@ -156,7 +156,7 @@ function calcularAreaPerimetroPentagono() {
 }
 
 function calcularAreaPerimetroHexagono() {
-    const ladoA = parseInt(inputLadoHexagonoA.value);
+    const ladoA = parseFloat(inputLadoHexagonoA.value);
 
     if (!ladoA) {
         alert("Por favor, pon las dimensiones en centimetros.");
@@ -171,8 +171,8 @@ function calcularAreaPerimetroHexagono() {
 }
 
 function calcularTeoremaDePitagoras() {
-    const ladoA = parseInt(inputLadoTeoremaA.value);
-    const ladoB = parseInt(inputLadoTeoremaB.value);
+    const ladoA = parseFloat(inputLadoTeoremaA.value);
+    const ladoB = parseFloat(inputLadoTeoremaB.value);
 
     if (!ladoA || !ladoB) {
         alert("Por favor, pon las dimensiones en centimetros.");
