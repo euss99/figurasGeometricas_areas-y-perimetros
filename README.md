@@ -9,7 +9,7 @@
 <h5> Desktop y Movil </h5>
 
 <p align="center"> 
-    <img  src="https://imagizer.imageshack.com/img924/8313/WG8Mmq.gif" width="400" heigth="250">
+    <img  src="https://imagizer.imageshack.com/img924/8313/WG8Mmq.gif" width="600" heigth="450">
 </p>
 
 <p align="center"> 
